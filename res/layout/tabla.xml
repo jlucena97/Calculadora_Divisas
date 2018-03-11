@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad:"
+        android:textSize="30sp"/>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cantidad"
+        android:textAlignment="center"
+        android:hint="0"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/moneda"
+        android:textSize="30sp"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1">
+
+    <Button
+        android:id="@+id/euroslibras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Euros a Libras"
+
+        />
+
+    <Button
+        android:id="@+id/libraseuros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libras a Euros"
+        />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1">
+
+    <Button
+        android:id="@+id/eurosdolares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Euros a Dolares"
+        />
+
+    <Button
+        android:id="@+id/dolareseuros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dolares a Euros"
+        />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1">
+
+    <Button
+        android:id="@+id/librasdolares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libras a Dolares" />
+    <Button
+        android:id="@+id/dolareslibras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dolares a Libras" />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1">
+
+    <Button
+        android:id="@+id/librasyuanes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Libras a Yuanes" />
+    <Button
+        android:id="@+id/yuaneslibras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yuanes a Libras" />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1">
+
+    <Button
+        android:id="@+id/eurosyuanes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Euros a Yuanes" />
+    <Button
+        android:id="@+id/yuaneseuros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yuanes a Euros" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/dolaresyuanes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dolaes a Yuanes" />
+    <Button
+        android:id="@+id/yuanesdolares"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yuanes a Dolares" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:layout_margin="0dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL:"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/total"/>
+</LinearLayout>
+</LinearLayout>
